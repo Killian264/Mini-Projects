@@ -1,0 +1,85 @@
+/* removes browser default padding */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    /* adds a background gradient */
+    background-image: linear-gradient(rgb(192, 191, 191), rgb(68, 68, 68));
+    /* adds padding to the top of webpage */
+    padding-top: 15px;
+    height: 100%;
+}
+
+body{
+    /* adds a background color */
+    background-color: rgb(221, 219, 219);
+    /* new font */
+    font-family: Arial, Helvetica, sans-serif;
+    /* body width */
+    width: 960px;
+    /* border size */
+    border: 3px;
+    /* border curve size */
+    border-radius: 20px;
+    /* border style, color, box shadow size alignment and color */
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px 5px grey;
+    /* horizontally centers div */
+    margin: auto;
+}
+header{
+    /* border area, size, style, color */
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: black;
+    /* padding */
+    padding: 10px 10px 90px 10px;
+}
+header h1{
+    /* centers header text */
+    padding-top: 80px;
+    padding-left: 10px;
+}
+header img{
+    /* floats image adds padding for header text */
+    float: left;
+    padding-right: 15px;
+}
+main{
+    padding: 10px 10px 30px 30px;
+}
+main h2, h3{
+    padding: 10px 0 5px;
+}
+main::first-letter{
+    /* increases font size by 1.5x */
+    font-size: 150%;
+}
+main a:hover, a:focus{
+    /* css list ^ to change color on param */
+    color: red;
+}
+main p{
+    padding-left: 10px;
+} 
+main ul{
+    /* removes list style and adds padding */
+    list-style: none;
+    padding-left: 10px;
+}
+footer{
+    /* adds border, area, style, color */
+    border-top: 1px;
+    border-top-style: solid;
+    border-color: black;
+    padding: 15px 0 15px; 
+    background: gray;
+    /* aligns text */
+    text-align: center;
+    font-size: 90%;
+    /* fixes issue of background covering main border curve */
+    border-bottom-left-radius: 16px; 
+    border-bottom-right-radius: 16px; 
+}
