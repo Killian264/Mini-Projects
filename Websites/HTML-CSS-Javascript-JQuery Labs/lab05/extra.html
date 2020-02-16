@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Debacker - Lab 5 Extra Information</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+</head>
+<body>
+<header>
+    <img src="images/image.jpg" alt="Image of Dark Souls Cover">
+    <h1>Video Games</h1>
+    <h2>Some of the best ever made.</h2>
+</header>
+<script>
+        $(document).ready(function(){
+            $('#navlinks').slicknav({
+                prependTo:'#navlinks2'
+            });
+        });
+    </script>
+    <nav id="navlinks2" class="test">
+    </nav>
+<nav id="navlinks">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="greatgames.html">Great Games</a></li>
+        <li><a href="index.html">Dark Souls</a></li>
+        <li class="current"><a href="extra.html">Extra Information</a></li>
+    </ul>
+</nav>
+<aside>
+    <ul>
+        <li><a class="test" href="https://store.steampowered.com/app/211420/DARK_SOULS_Prepare_To_Die_Edition/">Dark Souls</a></li>
+        <li><a class="test" href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/">Witcher 3</a></li>
+        <li><a class="test" href="https://store.steampowered.com/app/236430/DARK_SOULS_II/">Dark Souls 2</a></li>
+        <li><a class="test" href="https://store.steampowered.com/app/374320/DARK_SOULS_III/">Dark Souls 3</a></li>
+    </ul>
+</aside>
+<main>
+    <h1>Email Killian</h1>
+    <h3>Please enter the follwing information:</h3>
+    <form action="confirm.html">
+        <label for="firstname" >First name:</label>
+        <input type="text" name="firstname" id="firstname" autofocus required><br>
+        <label for="lastname">Last name:</label>
+        <input type="text" name="lastname" id="lastname" required><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" required><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" pattern="[0-9]{10}" id="phone" placeholder="Please include your 10 digit phone number" title="Please enter your 10 digit number with no dashes like so 1234567890"><br>
+        <button type="Submit" value="submit" id="submitbutton">Send Email</button>
+    </form>
+</main>
+<section>
+
+</section>
+
+<footer>
+    <p>
+        © 2019 Killian Debacker
+    </p>
+</footer>
+</body>
+</html>

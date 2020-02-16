@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Debacker - Lab 5 Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+</head>
+<body>
+<header>
+    <img src="images/image.jpg" alt="Image of Dark Souls Cover">
+    <h1>Video Games</h1>
+    <h2>Some of the best ever made.</h2>
+</header>
+<script>
+        $(document).ready(function(){
+            $(function(){
+            $('#navlinks').slicknav({
+                prependTo:'#navlinks2'
+            });
+        });
+        });
+    </script>
+    <nav id="navlinks2" class="test">
+    </nav>
+<nav id="navlinks">
+    <ul>
+        <li class="current"><a href="home.html">Home</a></li>
+        <li><a href="greatgames.html">Great Games</a></li>
+        <li><a href="index.html">Dark Souls</a></li>
+        <li><a href="extra.html">Extra Information</a></li>
+    </ul>
+</nav>
+<aside>
+    <ul>
+        <li><a class="test" href="https://store.steampowered.com/app/211420/DARK_SOULS_Prepare_To_Die_Edition/">Dark Souls</a></li>
+        <li><a class="test" href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/">Witcher 3</a></li>
+        <li><a class="test" href="https://store.steampowered.com/app/236430/DARK_SOULS_II/">Dark Souls 2</a></li>
+        <li><a class="test" href="https://store.steampowered.com/app/374320/DARK_SOULS_III/">Dark Souls 3</a></li>
+    </ul>
+</aside>
+<section>
+    <h1>Thank You!</h1>
+    <h2>Thank you for sending your contact information and feel free to browse the rest of the site.</h2>
+</section>
+
+<footer>
+    <p>
+        © 2019 Killian Debacker
+    </p>
+</footer>
+</body>
+</html>

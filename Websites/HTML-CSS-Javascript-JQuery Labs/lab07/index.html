@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Debacker - Lab 7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab7.css">
+    <!-- <script src="Debacker-lab-7.js"></script> -->
+</head>
+<body>
+<h1>Convert temperatures</h1>
+<hr>
+<form action="." id="conversion-form" name="conversion-form">
+    <input type="radio" name="conversion-type" id="to-celsius" value="convert-to-celsius" checked>
+    <label for="to-celsius">Fahrenheit to Celsius</label><br>
+    <input type="radio" name="conversion-type" id="to-fahrenheit" value="convert-to-fahrenheit">
+    <label for="to-fahrenheit">Celsius to Fahrenheit</label><br><br>
+    <label id="degrees-top-label" for="degrees-entered">Enter Fahrenheit degrees:</label>
+    <input type="text" id="degrees-entered" autofocus>&nbsp;<span id="error-message">*</span><br>
+    <label id="degrees-bottom-label" for="degrees-computed">Celsius equivalent:</label>
+    <input type="text" id="degrees-computed" disabled><br>
+    <input type="button" aria-label="Convert button" id="convert" value="Convert"><br>
+    <input type="button" aria-label="Clear button" id="clear-entries" value="Clear">
+</form>
+<script src="Debacker-lab-7.js"></script>
+</body>
+</html>
