@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Payton\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Payton\\.nuget\\packages"
+    ]
+  }
+}

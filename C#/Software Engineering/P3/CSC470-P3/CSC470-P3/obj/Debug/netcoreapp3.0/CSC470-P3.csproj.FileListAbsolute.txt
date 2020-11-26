@@ -1,0 +1,11 @@
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\bin\Debug\netcoreapp3.0\CSC470-P3.exe
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\bin\Debug\netcoreapp3.0\CSC470-P3.deps.json
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\bin\Debug\netcoreapp3.0\CSC470-P3.runtimeconfig.json
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\bin\Debug\netcoreapp3.0\CSC470-P3.runtimeconfig.dev.json
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\bin\Debug\netcoreapp3.0\CSC470-P3.dll
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\bin\Debug\netcoreapp3.0\CSC470-P3.pdb
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\obj\Debug\netcoreapp3.0\CSC470-P3.csprojAssemblyReference.cache
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\obj\Debug\netcoreapp3.0\CSC470-P3.AssemblyInfoInputs.cache
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\obj\Debug\netcoreapp3.0\CSC470-P3.AssemblyInfo.cs
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\obj\Debug\netcoreapp3.0\CSC470-P3.dll
+C:\Users\Payton\Source\Repos\CSC470-P3\CSC470-P3\obj\Debug\netcoreapp3.0\CSC470-P3.pdb
